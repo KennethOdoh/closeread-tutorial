@@ -54,7 +54,7 @@ Finally, we’ll pan to the portion highlighted in red:
 
 :::{#cr-highlighted}
 | 1️⃣ This is the first line.
-| 2️⃣ But this second line.
+| 2️⃣ This is the second line.
 | 3️⃣ This is the third line.
 | 4️⃣ And this is the fourth line.
 :::

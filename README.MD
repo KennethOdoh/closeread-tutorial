@@ -49,7 +49,7 @@ To get started, clone this repository and follow the tutorial provided in the Ju
 
 ## Live Demo
 
-Check out the live demo of the project here: [Scrollytelling with Closeread](https://scrollytelling-closeread.vercel.app/)
+Check out the live demo of the project here: [Closeread Tutorial](https://closeread-tutorial.vercel.app/)
 
 ## Contributing
 
@@ -57,8 +57,8 @@ Contributions are welcome! If you have suggestions for improvements or additiona
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License.
 
 ---
 
-Happy scrollytelling! 🚀
+Happy scrollytelling!

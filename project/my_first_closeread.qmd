@@ -1,0 +1,70 @@
+---
+title: "Understanding Tree Diagrams"
+theme: "superhero"
+fontsize: 16px
+format: 
+    closeread-html:
+        cr-section:
+            layout: "sidebar-left"
+        cr-style:
+            section-background-color: "#08508a"
+            narrative-background-color-overlay: "#08508a"
+            narrative-text-color-overlay: "#08508a"
+            narrative-border-radius: 5px
+            narrative-overlay-max-width: 60%
+css: style.css
+project:
+    type: website
+    output-dir: docs
+    
+---
+
+Hello World! Please read my Closeread story below.
+
+:::{.cr-section}
+This is a Closeread section
+
+I want my sticky to appear here ➡️ @cr-identifier
+
+:::{#cr-identifier}
+This block of text is a sticky within the Closeread section!
+:::
+
+Below is another block of text we'll be working with:
+@cr-highlighted <!-- @cr-highlighted refers to a block of text defined below with the identifier 'cr-highlighted'. -->
+
+First, let's scale this block of text by two:
+[@cr-highlighted]{scale-by="2"}
+
+Next, we’ll highlight lines 2 and 3 while keeping the same scale:
+[@cr-highlighted]{scale-by="2" highlight="2-3"}
+
+Now, let’s bring in an image:
+@cr-image
+
+It’s a bit large at first—taking up the full screen. Let’s scale it down:
+[@cr-image]{scale-by="0.5"}
+
+Finally, we’ll pan to the portion highlighted in red:
+[@cr-image2]{pan-to="-75%,75%" scale-by="1.5"}
+
+>💡Pro tip: When you `pan` and `scale` at the same time, you end up `zooming`!
+
+**Note**: Panning can be a bit unintuitive at first. You might need to experiment with the position values to get the result you want. A bit of trial and error helps here.
+
+:::{#cr-highlighted}
+| 1️⃣ This is the first line.
+| 2️⃣ But this second line.
+| 3️⃣ This is the third line.
+| 4️⃣ And this is the fourth line.
+:::
+
+:::{#cr-image}
+![](images/grid.jpg)
+:::
+
+:::{#cr-image2}
+![](images/grid-highlighted.jpg)
+:::
+
+:::
